@@ -1,7 +1,7 @@
 <body>
     <a href="/" >Ga terug</a>
     <h2>> Word lid</h2>
-<form action="http://www.ns.nl" autofill>
+<form>
     <fieldset>
       <legend>Persoonlijke Gegevens</legend>
       <label for="Geslacht">Geslacht</label>
@@ -63,7 +63,7 @@
        </fieldset>
 
 
-    <fieldset>
+    <!-- <fieldset>
       <legend>Online</legend>
       <label for="url">Website url</label>
       <input id="url" type="url" placeholder required>
@@ -72,9 +72,10 @@
       <label for="mail" >E-mail</label>
       <input id="mail" type="email" required>  
       <p class="feedback">👍</p>
-    </fieldset>
-
+    </fieldset> -->
+<fieldset>
     <a href="/" target="_blank">WORD LID</a>
+  </fieldset>
   </form>
 </body>
 
@@ -113,11 +114,9 @@ form {
   display:flex;
   flex-direction:column;
   transition: all .2s;
-  padding:1em;
   max-width:30rem;
   margin:0 auto;
   overflow:hidden;
-  /* height:100vh */
 }
 form:invalid {
   background: var(--oba-light-blue);
