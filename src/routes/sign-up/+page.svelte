@@ -1,50 +1,51 @@
 <body>
     <a href="/" >Ga terug</a>
+    <h2>> Word lid</h2>
 <form action="http://www.ns.nl" autofill>
     <fieldset>
       <legend>Persoonlijke Gegevens</legend>
       <label for="Geslacht">Geslacht</label>
       <input id="Geslacht" required type="text">
   
-      <label for="Voormaan">Voornaam</label>
+      <label for="Voormaan">Voornaam*</label>
       <input id="Voornaam" required type="text">
       <p class="feedback">👍</p>
 
       <label for="Tussenvoegsel">Tussenvoegsel</label>
-      <input id="Tussenvoegsel" required type="text">
+      <input id="Tussenvoegsel" >
       <p class="feedback">👍</p>
 
-      <label for="Achternaam">Achternaam</label>
+      <label for="Achternaam">Achternaam*</label>
       <input id="Achternaam" required type="text">
       <p class="feedback">👍</p>
 
-      <label for="Geboortedatum">Geboortedatum</label>
+      <label for="Geboortedatum">Geboortedatum*</label>
       <input id="Geboortedatum" required type="text">
       <p class="feedback">👍</p>
      </fieldset>
   
      <fieldset>
         <legend>Contact Gegevens</legend>
-        <label for="Adres">Adres (straat en huisnummer)</label>
+        <label for="Adres">Adres (straat en huisnummer)*</label>
         <input id="Adres" required type="text">
     
-        <label for="Postcode">Postcode (formaat: 1000 AA)</label>
+        <label for="Postcode">Postcode (formaat: 1000 AA)*</label>
         <input id="Postcode" required type="text">
         <p class="feedback">👍</p>
   
-        <label for="Woonplaats">Woonplaats</label>
+        <label for="Woonplaats">Woonplaats*</label>
         <input id="Woonplaats" required type="text">
         <p class="feedback">👍</p>
   
-        <label for="Emailadres">E-mailadres</label>
+        <label for="Emailadres">E-mailadres*</label>
         <input id="Emailadres" required type="text">
         <p class="feedback">👍</p>
 
-        <label for="Emailadres">Bevestiging E-mailadres</label>
+        <label for="Emailadres">Bevestiging E-mailadre*</label>
         <input id="Emailadres" required type="text">
         <p class="feedback">👍</p>
   
-        <label for="Telefoon">Telefoon </label>
+        <label for="Telefoon">Telefoon*</label>
         <input id="Telefoon" required type="text">
         <p class="feedback">👍</p>
   
@@ -73,7 +74,7 @@
       <p class="feedback">👍</p>
     </fieldset>
 
-    <a href="https://lose-your-head-the-client-case-zeta.vercel.app/" target="_blank">WORD LID</a>
+    <a href="/" target="_blank">WORD LID</a>
   </form>
 </body>
 
@@ -85,7 +86,7 @@
 }
 :root {
     --oba-light-blue: #E3E9F9;
-    --oba-red: #3C379E;
+    --oba-red: #0064c8;
 }
 html {
   font:100% / 250% "Monaco";
@@ -103,6 +104,8 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     padding: 0;
+    margin: 1em;
+    margin-top: 1em;
   }
 }
 
