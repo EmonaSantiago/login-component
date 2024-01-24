@@ -9,7 +9,7 @@
           <input type="text" id="fname" name="firstname" placeholder="E-mailadres of telefoonnummer...">
           <input type="text" id="lname" name="lastname" placeholder="Wachtwoord...">
       
-          <input type="submit1" value="Log in">
+          <a href="https://lets-jam-webapplicatie-phi.vercel.app/" type="submit1">Log in</a>
           <a href="/sign-up" type="submit2">Sign up</a>
           <!-- <a href="/Sign-up">Sign up</a> -->
         </form>
